@@ -1,7 +1,8 @@
 let form = document.getElementById('form');
 let play = document.createElement('button');
 let play_text = document.createElement('span');
-let user = prompt();
+let user = "Player";
+user = prompt();
 let winner = document.getElementById('title');
 let result = document.getElementById('game_result');
 let userScore = document.getElementById('user');
